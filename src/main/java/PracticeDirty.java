@@ -1,5 +1,3 @@
-package shortcut;
-
 import java.util.Date;
 
 /*
@@ -90,9 +88,27 @@ public class PracticeDirty {
     /*
      * Let's move to something a bit different
      * Here is a method, let's say for the sake of this exercise that it should belong in its own class
-     * How would you achieve that ?
+     * Try creating a new class and move it there
+     * No more hints, but remember to use "Find action"
      */
-    static void aMethod(){
+    static int aMethod(){
+        int start = 0;
+        int end = 10;
+        int sum = 0;
+        for (int i = start; i <= end; i++) {
+            sum += start;
+        }
+        return sum;
 
+        /*
+         * This seems to be adding all integers from 0 to 10
+         * Wouldn't it be nice to be able to know that at a glance ?
+         * Why don't you give the method a better name
+         */
+
+        /*
+         * Another thing, this would be more useful if it accepted parameters for its start and end values
+         * You have already extracted a method, maybe there a similar shortcut to extract parameters
+         */
     }
 }
