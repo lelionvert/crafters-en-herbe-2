@@ -1,8 +1,16 @@
+package shortcut;
+
 import java.util.Date;
 
 /*
- * To find a shortcut in Intellij you can just press shift shift and write what you want
- * Alternatively, you can also press ctrl + shift + A to access the 'Search Everywhere' bar
+ * The first shortcuts we'll practice are given as hints in bloc comments
+ * Let's hide them by collapsing recursively, follow along:
+ *  - First, go to line 16, press Ctrl + G
+ *  - Second, press Ctrl + Alt + NumPad Minus
+ * Let's then expand everything except those hints, this time press Ctrl + NumPad Plus
+ *
+ * To find a shortcut in IntelliJ you can just press Shift, then Shift again and write what you want
+ * Alternatively, you can also press Ctrl + Shift + A to access the 'Find Action' bar
  */
 
 public class PracticeDirty {
@@ -14,8 +22,8 @@ public class PracticeDirty {
 
         System.out.println("Let's try writing up numbers from 1 to 10");
 
-        // find and use the shortcut to move lines and put them back in the right order
-        /* hint : alt + shift + up/down */
+        // Find and use the shortcut to move lines and put them back in the right order
+        /* hint : Alt + Shift + up/down */
         System.out.println("9");
         System.out.println("6");
         System.out.println("8");
@@ -23,25 +31,25 @@ public class PracticeDirty {
         System.out.println("7");
 
         // Some lines should be deleted, can you do that ?
-        /* hint : ctrl + y */
+        /* hint : Ctrl + y */
         System.out.println("I am");
         System.out.println("not");
         System.out.println("a number !");
 
-        // find and use the shortcut to move lines and put them back in the right order
-        /* hint : alt + shift + up/down */
+        // Find and use the shortcut to move lines and put them back in the right order
+        /* hint : Alt + Shift + up/down */
         for (int i = 1; i < 6; i++) {
             System.out.println(i);
         }
 
         // Duplicate this line, by now you should find the shortcuts easily
-        /* hint : ctrl + d */
+        /* hint : Ctrl + d */
         System.out.println("Yey I wrote them correctly.");
 
 
         // You can indent the following lines, start by selecting the 4 following lines
         // then use the correct shortcut to indent
-        /* hint : ctrl + alt + i */
+        /* hint : Ctrl + Alt + i */
                                System.out.println("This piece of");
                     System.out.println("code needs");
     System.out.println("some indentation");
@@ -50,7 +58,7 @@ public class PracticeDirty {
 
         // First try using the same shortcut for the 8 following lines
         // What happened ? Try finding another shortcut to do it right
-        /* hint : ctrl + alt + l */
+        /* hint : Ctrl + Alt + l */
                  final boolean test = 1 > 3;
         String answer;
         if(                            test ==true){
@@ -75,8 +83,16 @@ public class PracticeDirty {
 
 
         // Find and use the shortcut 'Extract a method' and name it info
-        // hint : shortcut ctrl+alt+m
+           /* hint : shortcut Ctrl + Alt + m */
         System.out.println("This is a program, that's gonna do some stuff.");
+    }
+
+    /*
+     * Let's move to something a bit different
+     * Here is a method, let's say for the sake of this exercise that it should belong in its own class
+     * How would you achieve that ?
+     */
+    static void aMethod(){
 
     }
 }
