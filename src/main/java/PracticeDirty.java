@@ -67,22 +67,39 @@ public class PracticeDirty {
                              System.out.println("The answer is : " + answer);
 
 
-        System.out.println("We want to have add values " +
+        System.out.println("We want to add values " +
                 "together and prints out the results.");
 
+        // Observe the following lines, try to notice the parts that are similar
+        // Try to transform this code using only shortcuts to obtain a method as
+        System.out.println("Adding 1 and 2 gives :" + 3);
+        System.out.println("Adding 3 and 4 gives :" + 7);
+
+        // after doing some refactors we end up with this line here:
+        adding(3, 4);
+
+        // First try writing a method called myAdding using as much shortcuts as possible
+        // your starting point is the following line:
+        System.out.println("Adding 1 and 2 gives :" + 3);
 
 
-        System.out.println("Adding 1 and 2 gives :" + 1 + 2);
-        System.out.println("Adding 3 and 4 gives :" + 3 + 4);
+        // Now try writing a second method addingV2 but this time,
+        // the given parameters are strings stringAdding(String firstNumber, String secondNumber)
+        // again try starting from this line:
+        System.out.println("Adding 1 and 2 gives :" + 3);
 
-        String z = "";
-        System.out.println("Adding x and y gives :" + z);
+        // Cograts you have reached the end of this part, keep reading the remaining, there are more things to do
 
+        // One last shortcut before you go
+        // If you see at the very top of the file, you ll find there is an unused import
+        // try removing it by a shortcut :)
+        /* hint : Ctrl + Alt + o */
 
+        // Enjoy !
+    }
 
-        // Find and use the shortcut 'Extract a method' and name it info
-           /* hint : shortcut Ctrl + Alt + m */
-        System.out.println("This is a program, that's gonna do some stuff.");
+    private static void adding(int firstNumber, int secondNumber) {
+        System.out.printf("Adding %d and %d gives :%d%n", firstNumber, secondNumber, firstNumber + secondNumber);
     }
 
     /*
