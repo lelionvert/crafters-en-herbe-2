@@ -6,7 +6,7 @@ Cette exercice a pour objectif de nous familiariser aux raccourcis clavier sous 
 ### Références
 [Mouseless Programming, mouse vs keyboard only](https://codurance.com/2015/11/25/mouseless-programming/)
 
-[Top Java IDE keyboard shortcuts for Eclipse: Mastering your IDE's keybindings like a boss](https://pages.zeroturnaround.com/RebelLabs---IDE-Shortcuts-Report---Eclipse.html?utm_source=eclipsenews&utm_medium=newsletter&utm_campaign=eclipseshortcut)
+[Top Java IDE Keyboard Shortcuts for Eclipse, IntelliJ IDEA & NetBeans](https://jrebel.com/rebellabs/top-java-ide-keyboard-shortcuts-for-eclipse-intellij-idea-netbeans/)
 
 ---
 ### Outils IntelliJ
