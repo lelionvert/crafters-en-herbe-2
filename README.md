@@ -1,6 +1,8 @@
 # Crafters en herbe #2
 ## Initiation à la programmation sans souris
+Cette exercice a pour objectif de nous familiariser aux raccourcis clavier sous IntelliJ.
 
+---
 ### Références
 [Mouseless Programming, mouse vs keyboard only](https://codurance.com/2015/11/25/mouseless-programming/)
 
