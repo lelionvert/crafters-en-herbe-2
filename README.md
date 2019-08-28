@@ -3,6 +3,7 @@
 
 ### Références
 [Mouseless Programming, mouse vs keyboard only](https://codurance.com/2015/11/25/mouseless-programming/)
+
 [Top Java IDE keyboard shortcuts for Eclipse: Mastering your IDE's keybindings like a boss](https://pages.zeroturnaround.com/RebelLabs---IDE-Shortcuts-Report---Eclipse.html?utm_source=eclipsenews&utm_medium=newsletter&utm_campaign=eclipseshortcut)
 
 ### Outils IntelliJ
